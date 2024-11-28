@@ -26,8 +26,8 @@ export default function Home() {
             <h3 className="font-bold text-gray-500">Frontend developer</h3>
           </figcaption>
         </figure>
-        <section className="grid grid-cols-[65%,35%] mt-40">
-          <article className="w-full">
+        <section className="grid grid-cols-[65%,35%] mt-40 space-x-6">
+          <article className="w-full pt-6">
             <h2 className="mb-4 text-2xl font-bold text-gray-700">Cześć! 👋</h2>
             <p className="mb-2 font-bold">Jestem programistą z ponad rocznym, praktycznym doświadczeniem</p>
             <ul className="list-disc pl-5 space-y-2">
@@ -36,7 +36,44 @@ export default function Home() {
               <li>Szukam nowych możliwości rozwoju, gdzie będę mógł wykorzystać moje umiejętności i pasję do programowania.</li>
             </ul>
           </article>
-          <article className="w-full">2</article>
+          <article className="w-full space-y-8">
+            <div>
+              <ul className="space-y-2">
+                <li>
+                  <a 
+                    className="w-28 p-2 flex items-center border rounded-md border-gray-200 shadow-sm cursor-pointer"
+                    href="https://github.com/rafalk88"
+                    target="_blank"
+                  >
+                    <span className="font-bold text-gray-800">Github</span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className="w-28 p-2 flex items-center border rounded-md border-gray-200 shadow-sm cursor-pointer"
+                    href="https://www.linkedin.com/in/rafalkochanecki/"
+                    target="_blank"
+                  >
+                    <span className="font-bold text-gray-800">Linkedin</span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className="w-28 p-2 flex items-center border rounded-md border-gray-200 shadow-sm cursor-pointer"
+                    href=""
+                    target="_blank"
+                  >
+                    <span className="font-bold text-gray-800">CV</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div className="space-y-2">
+              <p>(+48) 533 605 496</p>
+              <p>rafal.kochanecki@gmail.com</p>
+            </div>
+            <p>Katowice, Polska</p>
+          </article>
         </section>
       </main>
     </section>
