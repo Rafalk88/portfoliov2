@@ -22,10 +22,22 @@ export default function Home() {
             height={112}
           />
           <figcaption>
-            <h3 className="text-4xl font-bold">Rafał Kochanecki</h3>
-            <h4 className="font-bold text-gray-500">Frontend developer</h4>
+            <h2 className="text-5xl font-bold">Rafał Kochanecki</h2>
+            <h3 className="font-bold text-gray-500">Frontend developer</h3>
           </figcaption>
         </figure>
+        <section className="grid grid-cols-[65%,35%] mt-40">
+          <article className="w-full">
+            <h2 className="mb-4 text-2xl font-bold text-gray-700">Cześć! 👋</h2>
+            <p className="mb-2 font-bold">Jestem programistą z ponad rocznym, praktycznym doświadczeniem</p>
+            <ul className="list-disc pl-5 space-y-2">
+              <li>Moja pasja do kodowania napędza mnie do nieustannego doskonalenia się i poszukiwania innowacyjnych rozwiązań.</li>
+              <li>Zdobyte umiejętności techniczne oraz praktyczne doświadczenie pozwalają mi efektywnie współpracować w zespołach projektowych, przyczyniając się do sukcesu każdego wyzwania, przed jakim staje.</li>
+              <li>Szukam nowych możliwości rozwoju, gdzie będę mógł wykorzystać moje umiejętności i pasję do programowania.</li>
+            </ul>
+          </article>
+          <article className="w-full">2</article>
+        </section>
       </main>
     </section>
   );
